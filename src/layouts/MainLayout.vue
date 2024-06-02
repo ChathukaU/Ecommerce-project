@@ -87,8 +87,15 @@
             1
           </q-badge>
         </q-btn>
-        <q-btn flat round dense icon="settings" class="q-mr-md" />
-        <q-btn flat round dense icon="account_circle" to="/account" />
+        <q-btn
+          class="q-mr-md"
+          flat
+          round
+          dense
+          icon="account_circle"
+          to="/account"
+        />
+        <q-btn class="q-mr-md" flat round dense icon="exit_to_app" to="/" />
       </q-toolbar>
       <div class="bg-white text-grey-9 text-weight-bold shadow-transition">
         <div
